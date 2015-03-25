@@ -72,28 +72,71 @@ vector<MarriageRecord> parseMarriages(vector<string> list)
 	string year = "";
 	string date = "";
 	string bride = "";
-	string groom = "";
+	string groom  = "";
+	string expecting = "year";
 	int i = 0;
 
 	while(i < list.size())
 	{
-		if(isYear(list[i]))
+		if(expecting == "year")
 		{
-			year = list[i];
-
-			while(i < list.size() - 1 && !isYear(list[i + 1]))
+			if(isYear(list[i]))
 			{
-				if(isDate(list[i]))
-				{
-					if(list[i] != "..-..")
-					{
-						date = list[i];
-					}
-					cout << date << endl;
-				}
-				
+				year = list[i].substr(0, list[i].length() - 1);
+			}
 
-				i++;
+			expecting = "date";
+		}
+		else if(expecting == "date")
+		{
+			if(isDate(list[i]))
+			{
+				if(list[i] != "..-..")
+				{
+					date = list[i];
+				}
+			}
+		
+			expecting = "groom";
+		}
+		else if(expecting == "bride")
+		{
+			if(isYear(list[i]))
+			{
+				expecting = "year";
+
+				marriages.push_back(MarriageRecord(year, date, bride, groom));
+				bride = "";
+				groom = "";
+
+				continue;
+			}
+			else if(isDate(list[i]))
+			{
+				expecting = "date";	
+
+				marriages.push_back(MarriageRecord(year, date, bride, groom));
+				bride = "";
+				groom = "";
+
+				continue;
+			}
+			else
+			{
+				bride += " ";
+				bride += list[i];
+			}
+		}
+		else if(expecting == "groom")
+		{
+			if(list[i] == "mit" || list[i] == "an")
+			{
+				expecting = "bride";
+			}
+			else
+			{
+				groom += " ";
+				groom += list[i];
 			}
 		}
 
