@@ -11,9 +11,6 @@ class MarriageRecord
 
 	void print();
 
-
-	private:
-	
 	std::string date;
 	std::string year;
 	std::string bride;

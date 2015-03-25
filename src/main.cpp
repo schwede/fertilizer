@@ -1,10 +1,9 @@
 #include <cstdlib>
 #include <iostream>
 #include <fstream>
-#include "MarriageNode.hpp"
-#include "Node.hpp"
+#include <vector>
+#include "MarriageRecord.hpp"
 using namespace std;
-
 
 bool delimiter(char c)
 {
@@ -66,69 +65,46 @@ bool isYear(string y)
 	}
 }
 
-MarriageNode* loadRecords(Node* h)
+vector<MarriageRecord> parseMarriages(vector<string> list)
 {
-	MarriageNode* head = new MarriageNode();
+	vector<MarriageRecord> marriages;
 
-	string date = "";
 	string year = "";
+	string date = "";
 	string bride = "";
 	string groom = "";
-	bool valid = false;
-	bool toggle = true;
+	int i = 0;
 
-	
-	MarriageNode* i = head;
-	Node* s = h;
-
-	while(s != NULL)
+	while(i < list.size())
 	{
-		if(isYear(s->item))
+		if(isYear(list[i]))
 		{
-			year = s->item;
+			year = list[i];
+
+			while(i < list.size() - 1 && !isYear(list[i + 1]))
+			{
+				if(isDate(list[i]))
+				{
+					if(list[i] != "..-..")
+					{
+						date = list[i];
+					}
+					cout << date << endl;
+				}
+				
+
+				i++;
+			}
 		}
-		else if(isDate(s->item))
-		{
-			if(valid)
-			{	
-				i = new MarriageNode(year, date, bride, groom, i);
-			}
 
-
-			if(s->item != "..-..")
-			{
-				date = s->item;
-			}
-
-			valid = !valid;
-		}
-		else if(valid)
-		{
-			if(s->item == "mit")
-			{
-				toggle = !toggle;
-			}
-			else if(toggle) // groom
-			{
-				groom += " ";
-				groom += s->item;
-			}
-			else // bride
-			{
-				bride += " ";
-				bride += s->item;
-			}
-		
-		}
-		
-
-		s = s->next;
+		i++;
 	}
 
-	return head;
+	return marriages;
 }
 
-Node* loadStrings()
+
+vector<string> loadStrings()
 {
 	ifstream in;
 	in.open("marriages.txt");
@@ -139,10 +115,10 @@ Node* loadStrings()
 		exit(0);
 	}
 
-	char c;
+	char c = ' ';
+	int count = 0;
 	string  input = "";
-	Node* head = new Node();
-	Node* i = head;
+	vector<string> list;
 
 	while(!in.eof())
 	{
@@ -152,8 +128,7 @@ Node* loadStrings()
 		{
 			if(!delimiter(in.peek()))
 			{
-				i->next = new Node(input);
-				i = i->next;
+				list.push_back(input);
 				input = "";
 			}
 		}
@@ -163,21 +138,19 @@ Node* loadStrings()
 		}
 	}
 
-	return head;
+	return list;
 }
 
 int main()
 {
-	Node* list = loadStrings();
-	MarriageNode* marriages = loadRecords(list);
+	vector<string> list = loadStrings();
+	vector<MarriageRecord> marriages = parseMarriages(list);
+	int i = 0;
 
 
-	MarriageNode* i = marriages;
-
-	while(i != NULL)
+	for(int i = 0; i < marriages.size(); i++)
 	{
-		i->item.print();
-		i = i->next;
+		marriages[i].print();
 	}
 
 	return 0;

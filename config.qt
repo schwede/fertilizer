@@ -2,6 +2,6 @@
 TARGET = main
 DESTDIR = .
 OBJECTS_DIR=build
-HEADERS += src/Node.hpp src/MarriageRecord.hpp src/MarriageNode.hpp
-SOURCES += src/Node.cpp src/MarriageRecord.cpp src/MarriageNode.cpp
+HEADERS += src/MarriageRecord.hpp
+SOURCES += src/MarriageRecord.cpp
 SOURCES += src/main.cpp
