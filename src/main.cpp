@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include "Lexer.hpp"
 #include "MarriageRecord.hpp"
 using namespace std;
 
@@ -63,6 +64,35 @@ bool isYear(string y)
 	{
 		return false;
 	}
+}
+
+void parseBaptims(vector<string> list)
+{
+	string year = "";
+	string date = "";
+	string infant = "";
+	string mother = "";
+	string father = "";
+	vector<string> godparents;
+	string expecting = "year";
+	int i = 0;
+
+	/*
+	02-07P. Johan Herbordt Droege, M. Anna Maria Ollenhagens
+	Inf. Claus Henrich, bapt. den 2 Jul.
+	Patr. Johan Henrich Ubbing, Claus Henrich Droege, Anna Maria Dunckers
+	*/
+
+
+	while(i < list.size());
+	{
+		if(expecting == "year")
+		{
+
+		}
+	}
+
+
 }
 
 vector<MarriageRecord> parseMarriages(vector<string> list)
@@ -146,7 +176,7 @@ vector<MarriageRecord> parseMarriages(vector<string> list)
 	return marriages;
 }
 
-
+// Todo: switch it up to do some parsing and type finding here instead of the parse marriages
 vector<string> loadStrings()
 {
 	ifstream in;
@@ -184,7 +214,7 @@ vector<string> loadStrings()
 	return list;
 }
 
-int main()
+void test()
 {
 	vector<string> list = loadStrings();
 	vector<MarriageRecord> marriages = parseMarriages(list);
@@ -194,6 +224,16 @@ int main()
 	for(int i = 0; i < marriages.size(); i++)
 	{
 		marriages[i].print();
+	}
+}
+
+int main()
+{
+	Lexer lexer("marriages.txt");
+
+	for(int x = 0; x < 10; x++)
+	{
+		cout << lexer.get() << endl;
 	}
 
 	return 0;
