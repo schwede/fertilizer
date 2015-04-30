@@ -1,7 +1,0 @@
-
-TARGET = main
-DESTDIR = .
-OBJECTS_DIR=build
-HEADERS += src/MarriageRecord.hpp src/Lexer.hpp
-SOURCES += src/MarriageRecord.cpp src/Lexer.cpp
-SOURCES += src/main.cpp

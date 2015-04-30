@@ -2,44 +2,12 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include "Lexer.hpp"
 #include "MarriageRecord.hpp"
 using namespace std;
 
-bool delimiter(char c)
-{
-	return c == ' ' || c == '\n';
-}
-
 bool isDigit(char d)
 {
-	switch(d)
-	{
-		case '0':
-			return true;
-		case '1':
-			return true;
-		case '2':
-			return true;
-		case '3':
-			return true;
-		case '4':
-			return true;
-		case '5':
-			return true;
-		case '6':
-			return true;
-		case '7':
-			return true;
-		case '8':
-			return true;
-		case '9':
-			return true;
-		case '.':
-			return true;
-		default:
-			return false;
-	}
+	return d >= '0' && d <= '9';
 }
 
 bool isDate(string d)
@@ -56,7 +24,7 @@ bool isDate(string d)
 
 bool isYear(string y)
 {
-	if(y.length() == 5 && isDigit(y[0]) && isDigit(y[1]) && isDigit(y[2])  && isDigit(y[3]) && isDigit(y[4]))
+	if(y.length() == 4 && isDigit(y[0]) && isDigit(y[1]) && isDigit(y[2])  && isDigit(y[3]))
 	{
 		return true;
 	}
@@ -66,33 +34,46 @@ bool isYear(string y)
 	}
 }
 
-void parseBaptims(vector<string> list)
+vector<MarriageRecord> parseMarriages2(vector<string> strings)
 {
+	vector<MarriageRecord> marriages;
+
 	string year = "";
 	string date = "";
-	string infant = "";
-	string mother = "";
-	string father = "";
-	vector<string> godparents;
-	string expecting = "year";
-	int i = 0;
+	string bride = "";
+	string groom  = "";
+	string last = "";
+	string expecting = "";
+	string current = strings[0];
 
-	/*
-	02-07P. Johan Herbordt Droege, M. Anna Maria Ollenhagens
-	Inf. Claus Henrich, bapt. den 2 Jul.
-	Patr. Johan Henrich Ubbing, Claus Henrich Droege, Anna Maria Dunckers
-	*/
-
-
-	while(i < list.size());
+	for(int x = 1; x < strings.size(); x++)
 	{
-		if(expecting == "year")
+
+		if(current == ".")
+		{
+			if(isYear(last))
+			{
+				year = last;
+				expecting = "date";
+			}
+		}
+		if(expecting == "date")
+		{
+			if(isDate(current))
+			{
+
+			}
+		}
+		else if(expecting == "husband")
 		{
 
 		}
+
+		last = strings[x - 1];
+		current = strings[x];
 	}
 
-
+	return marriages;
 }
 
 vector<MarriageRecord> parseMarriages(vector<string> list)
@@ -112,7 +93,7 @@ vector<MarriageRecord> parseMarriages(vector<string> list)
 		{
 			if(isYear(list[i]))
 			{
-				year = list[i].substr(0, list[i].length() - 1);
+				year = list[i];
 			}
 
 			expecting = "date";
@@ -176,8 +157,7 @@ vector<MarriageRecord> parseMarriages(vector<string> list)
 	return marriages;
 }
 
-// Todo: switch it up to do some parsing and type finding here instead of the parse marriages
-vector<string> loadStrings()
+vector<string> loadStrings() // produces a list of strings seperated by spaces, newlines, commas, and periods
 {
 	ifstream in;
 	in.open("marriages.txt");
@@ -189,21 +169,33 @@ vector<string> loadStrings()
 	}
 
 	char c = ' ';
-	int count = 0;
 	string  input = "";
 	vector<string> list;
 
 	while(!in.eof())
 	{
-		char c = in.get();
+		c = in.get();
 
-		if(delimiter(c))
+		if(c == ' ' || c == '\n')
 		{
-			if(!delimiter(in.peek()))
+			if(input != "")
 			{
 				list.push_back(input);
 				input = "";
 			}
+
+		}
+		else if(c == '.')
+		{
+			list.push_back(input);
+			list.push_back(".");
+			input = "";
+		}
+		else if(c == ',')
+		{
+			list.push_back(input);
+			list.push_back(",");
+			input = "";
 		}
 		else
 		{
@@ -214,26 +206,14 @@ vector<string> loadStrings()
 	return list;
 }
 
-void test()
-{
-	vector<string> list = loadStrings();
-	vector<MarriageRecord> marriages = parseMarriages(list);
-	int i = 0;
-
-
-	for(int i = 0; i < marriages.size(); i++)
-	{
-		marriages[i].print();
-	}
-}
-
 int main()
 {
-	Lexer lexer("marriages.txt");
+	vector<string> strings = loadStrings();
+	vector<MarriageRecord> marriages = parseMarriages(strings);
 
-	for(int x = 0; x < 10; x++)
+	for(int x = 0; x < marriages.size(); x++)
 	{
-		cout << lexer.get() << endl;
+		marriages[x].print();
 	}
 
 	return 0;
