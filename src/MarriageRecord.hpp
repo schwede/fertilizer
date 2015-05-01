@@ -1,21 +1,30 @@
 #ifndef MARRIAGE_RECORD
 #define MARRIAGE_RECORD
 #include <string>
+#include <vector>
 #include <iostream>
+using namespace std;
 
 class MarriageRecord
 {
 	public:
 
-	MarriageRecord(std::string d = "", std::string y = "", std::string b ="", std::string g = "");
+	MarriageRecord(string d = "", string y = "", string b = "", string g = "");
 
 	void print();
 
-	std::string date;
-	std::string year;
-	std::string bride;
-	std::string groom;
+	string getGroom();
+
+	string getBride();
+
+	string date;
+	string year;
+	vector<string> bride;
+	vector<string> groom;
+	vector<string> brideExtra;
+	vector<string> groomExtra;
 
 };
 
 #endif
+

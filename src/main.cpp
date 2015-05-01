@@ -5,6 +5,8 @@
 #include "MarriageRecord.hpp"
 using namespace std;
 
+const double threshold = 0.8;
+
 bool isDigit(char d)
 {
 	return d >= '0' && d <= '9';
@@ -12,68 +14,70 @@ bool isDigit(char d)
 
 bool isDate(string d)
 {
-	if(d.length() == 5 && isDigit(d[0]) && isDigit(d[1]) && d[2] == '-' && isDigit(d[3]) && isDigit(d[4]))
-	{
-		return true;
-	}
-	else
-	{
-		return false;
-	}
+	return d.length() == 5 && isDigit(d[0]) && isDigit(d[1]) && d[2] == '-' && isDigit(d[3]) && isDigit(d[4]);
 }
 
 bool isYear(string y)
 {
-	if(y.length() == 4 && isDigit(y[0]) && isDigit(y[1]) && isDigit(y[2])  && isDigit(y[3]))
-	{
-		return true;
-	}
-	else
-	{
-		return false;
-	}
+	return y.length() == 4 && isDigit(y[0]) && isDigit(y[1]) && isDigit(y[2])  && isDigit(y[3]);
 }
 
 vector<MarriageRecord> parseMarriages2(vector<string> strings)
 {
 	vector<MarriageRecord> marriages;
 
-	string year = "";
-	string date = "";
-	string bride = "";
-	string groom  = "";
-	string last = "";
-	string expecting = "";
-	string current = strings[0];
+	return marriages;
+}
 
-	for(int x = 1; x < strings.size(); x++)
+bool match(string check, string query)
+{
+//	cout << "Checking " << query << " against: " << check << endl;
+	double max = query.length(); 
+	
+	double matched = 0;
+	for(int i = 0; i < check.length(); i++)
 	{
-
-		if(current == ".")
+		for(int j = 0; j < query.length(); j++)
 		{
-			if(isYear(last))
+			if(tolower(check[i]) == tolower(query[j]))
 			{
-				year = last;
-				expecting = "date";
+				//cout << query << " -- " << check[i] << " --> ";
+				query = query.substr(0, j) + query.substr(j + 1);
+				//cout << query << endl;
+				matched += 1;
+				break;
 			}
 		}
-		if(expecting == "date")
-		{
-			if(isDate(current))
-			{
-
-			}
-		}
-		else if(expecting == "husband")
-		{
-
-		}
-
-		last = strings[x - 1];
-		current = strings[x];
 	}
 
-	return marriages;
+	cout << matched << " / " << query.length() << endl;
+	return matched / query.length() > threshold;
+}
+
+void search(vector<MarriageRecord> marriages)
+{
+	string use = "Kreyen";
+	for(int i = 0; i < marriages.size(); i++)
+	{
+		for(int j = 0; j < marriages[i].groom.size(); j++)
+		{
+			if(match(marriages[i].groom[j], use))
+			{
+				break;
+			}
+		}
+	}
+
+	for(int i = 0; i < marriages.size(); i++)
+	{
+		for(int j = 0; j < marriages[i].bride.size(); j++)
+		{
+			if(match(marriages[i].bride[j], use))
+			{
+				break;
+			}
+		}
+	}
 }
 
 vector<MarriageRecord> parseMarriages(vector<string> list)
@@ -87,7 +91,7 @@ vector<MarriageRecord> parseMarriages(vector<string> list)
 	string expecting = "year";
 	int i = 0;
 
-	while(i < list.size())
+	for(int i = 0; i < list.size(); i++)
 	{
 		if(expecting == "year")
 		{
@@ -134,6 +138,7 @@ vector<MarriageRecord> parseMarriages(vector<string> list)
 			}
 			else
 			{
+				if(bride != "")
 				bride += " ";
 				bride += list[i];
 			}
@@ -146,12 +151,11 @@ vector<MarriageRecord> parseMarriages(vector<string> list)
 			}
 			else
 			{
+				if(groom != "")
 				groom += " ";
 				groom += list[i];
 			}
 		}
-
-		i++;
 	}
 
 	return marriages;
@@ -210,11 +214,12 @@ int main()
 {
 	vector<string> strings = loadStrings();
 	vector<MarriageRecord> marriages = parseMarriages(strings);
+	search(marriages);
 
-	for(int x = 0; x < marriages.size(); x++)
+	/*for(int x = 0; x < marriages.size(); x++)
 	{
 		marriages[x].print();
-	}
+	}*/
 
 	return 0;
 }

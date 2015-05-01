@@ -1,10 +1,10 @@
 CC=clang++
-CFLAGS=-c -Wall
+CFLAGS=-c 
 
 all: fertilizer
 
 fertilizer: main.o MarriageRecord.o 
-	$(CC)  main.o MarriageRecord.o -o fertilizer	
+	$(CC) main.o MarriageRecord.o -o fertilizer	
 
 main.o: src/main.cpp
 	$(CC) $(CFLAGS) src/main.cpp
