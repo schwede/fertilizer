@@ -5,8 +5,6 @@
 #include "MarriageRecord.hpp"
 using namespace std;
 
-const double threshold = 0.8;
-
 bool isDigit(char d)
 {
 	return d >= '0' && d <= '9';
@@ -29,53 +27,14 @@ vector<MarriageRecord> parseMarriages2(vector<string> strings)
 	return marriages;
 }
 
-bool match(string check, string query)
-{
-//	cout << "Checking " << query << " against: " << check << endl;
-	double max = query.length(); 
-	
-	double matched = 0;
-	for(int i = 0; i < check.length(); i++)
-	{
-		for(int j = 0; j < query.length(); j++)
-		{
-			if(tolower(check[i]) == tolower(query[j]))
-			{
-				//cout << query << " -- " << check[i] << " --> ";
-				query = query.substr(0, j) + query.substr(j + 1);
-				//cout << query << endl;
-				matched += 1;
-				break;
-			}
-		}
-	}
-
-	cout << matched << " / " << query.length() << endl;
-	return matched / query.length() > threshold;
-}
-
 void search(vector<MarriageRecord> marriages)
 {
-	string use = "Kreyen";
+	string use = "kreyenhagen";
 	for(int i = 0; i < marriages.size(); i++)
 	{
-		for(int j = 0; j < marriages[i].groom.size(); j++)
+		if(marriages[i].match(use))
 		{
-			if(match(marriages[i].groom[j], use))
-			{
-				break;
-			}
-		}
-	}
-
-	for(int i = 0; i < marriages.size(); i++)
-	{
-		for(int j = 0; j < marriages[i].bride.size(); j++)
-		{
-			if(match(marriages[i].bride[j], use))
-			{
-				break;
-			}
+			marriages[i].print();
 		}
 	}
 }
@@ -214,12 +173,12 @@ int main()
 {
 	vector<string> strings = loadStrings();
 	vector<MarriageRecord> marriages = parseMarriages(strings);
-	search(marriages);
 
 	/*for(int x = 0; x < marriages.size(); x++)
 	{
 		marriages[x].print();
 	}*/
+	search(marriages);
 
 	return 0;
 }
