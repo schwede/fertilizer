@@ -16,7 +16,7 @@
 18-05   Gerd Luttmer mit Anna Catrina in der Stroht
 31-07   Gerd Henrich Nieman, viduus mit Margreta Elsabein bey der Kellen
 30-08   Johan Ha.enborg, Cath. ex Wallenhorst, mit ... Elsabein Rolckers?
-..-..   Johan Wilhelm Juetting mit Philipina Hedwig Hanna Meinicken
+30-08   Johan Wilhelm Juetting mit Philipina Hedwig Hanna Meinicken
 20-09   Johan Anthon bey der Beeke mit Anna Catrina ....
 04-10   Gerd vor der Woesten mit Anna Catrina Strubben
 04-10   Johann Juergen R.... mit Anna Margreta Knuefeners
@@ -56,10 +56,10 @@
 25-04 Berend Nieman, viduus, Cath., mit Anna Catrina Peddenpohls, Cath., zu Wallenhorst
        cop.
 15-07 Herman von der Heyde, viduus, mit Catrina Rothers
-..-..  Johann Henrich Berghoff alias senior Schuette, viduus, mit Margreta Weehmans, vid.
+15-07  Johann Henrich Berghoff alias senior Schuette, viduus, mit Margreta Weehmans, vid.
        Fissen, festo Jacobi cop.
-..-..  Erenst Moehlenkampff, viduus, mit Ancke Meyers, vidua Linemans, festo Jacobi cop.
-..-..  Johan Herman Schuette, Vennensis, mit Anna Margreta Moehlenkampffs, vidua Johann
+15-07  Erenst Moehlenkampff, viduus, mit Ancke Meyers, vidua Linemans, festo Jacobi cop.
+15-07  Johan Herman Schuette, Vennensis, mit Anna Margreta Moehlenkampffs, vidua Johann
        Henricken Schweppen
 24-11 Herman Henrich in der Strot mit Catharian Fenne Sandmans
 
@@ -99,7 +99,7 @@
 
 
 24-05   Johan Herman Knille mit Anna Grethe Timermans
-..-..   Johan Henrich Wilke mit Anna Catharina Luebbes, vidua, Cath. zur Wallenhorst cop.
+24-05   Johan Henrich Wilke mit Anna Catharina Luebbes, vidua, Cath. zur Wallenhorst cop.
 02-06   Johan Herbart Goertemoeller, viduus, mit Anna Elsabeen Luthmers
 06-06   Johan Arnold Meyer, Pastor loci, mit Sophia Charlotte Kloevekorns
 11-10   Johan Herbart Blancke mit Anna Philippina Rewers
@@ -120,7 +120,7 @@
 22-02   Clauss Henrich Hellenkamp mit Thriene Elsabeen Eggemans
 24-04   Johan Henrich Fruechte mit Grethe Elsabeen Schuettes
 03-05   Johan Jost Eggeman, viduus, mit Margaretha Massmans, vidua
-..-..   Gerdt Ernst Tepe, Cath., mit Thriene Maria Bueschers, ex Wallinghorst Cath.
+03-05   Gerdt Ernst Tepe, Cath., mit Thriene Maria Bueschers, ex Wallinghorst Cath.
 29-07   Johan Henrich Duncker mit Anna Charlotte Tapsche
 10-08   Johan Gerdt Duesterkoetter mit Elsabeen Ollenhagens
 07-10   Clauss Herman Krahmer mit Margaretha Adelheit Goertemoellers
@@ -144,10 +144,7 @@
 28-04   Gerdt Herbart Hallenbeck mit Ancke Thriene Schnieders
 05-05   Johan Henrich Enckelstroth mit Maria Gerderuth Meyers genant Schmidts
 09-06   Johan Henrich Witte mit Anna Elisabeth Wilhelmina Baars, Preafecti filia, in Rulle cop.
-..-..   Johan Ernst Vosskamp mit Anna Elsabeen Fuhlbrocks
-
-
-
+09-06   Johan Ernst Vosskamp mit Anna Elsabeen Fuhlbrocks
 
 24-09   Johan Henrich Luebbe mit Grethe Maria Schuettes, ex Venne
 06-10   Johan Henrich Klein Helmkamp mit Anna Catharina Luessenheedes
@@ -242,7 +239,7 @@
 01-11   Gerdt Herman Schmidt mit Elsabeen Catharina Sophia Meyers, ex Quakenbrueck
 11-11   Johan Evert Rentzenbrinck mit Margaretha Gerderuth Luebbes
 13-11   Johan Herman Bruning mit Margaretha Elsabeen Meyers genant Schmidts
-..-11   Johan Henrich in der Stroth mit Catharina Margaretha Hackes vidua Knuefeners
+13-11   Johan Henrich in der Stroth mit Catharina Margaretha Hackes vidua Knuefeners
 02-12   Herman Henrich Luebbe mit Catharina Elsabeen Boeckelmans
 
         1739.
@@ -257,7 +254,7 @@
 23-03 Herbordt Kuhlman, viduus, mit Luecke Reelings
 21-04 Diecks Arend Eggeman mit Grethe Adellheit Brunings
 26-05 Herman Henrich Kuhlman mit Anna Maria Lienemans
-..-.. Cordt Henrich Bartlage, aus Wallinghorst, Cath., mit Anna Catharina Luebbes, cop. in
+26-05 Cordt Henrich Bartlage, aus Wallinghorst, Cath., mit Anna Catharina Luebbes, cop. in
       Wallinghorst, weil beyde Cath. solut. jurib.
 14-07 Herman Duhme mit Anna Catharina Agnesa Pabstes
 25-08 Johan Henrich Schuette mit Anna Maria Koepkes
@@ -369,7 +366,7 @@
 
         1744.
 17-01   Clauss Henrich Droste mit Grethe Elsabeen Reelings
-..-..   Ernst Henrich im Ollenhagen mit Anna Engell Voss
+17-01   Ernst Henrich im Ollenhagen mit Anna Engell Voss
 13-02   Herman Henrich auf der Heyde mit Anna Maria Hessmars
 19-02   Johan Henrich Borchelt mit Anna Elsabeen Schomborgs
 15-04   Herman henrich Gross Hucksell mit Catharina Elsabeen Kueels
@@ -387,8 +384,8 @@
 
         1745.
 19-01   Johan Christopher Tieman mit Anna Maria Elsabeen Brunings
-..-..   Clauss Henrich Moehlenkampff mit Anna Maria Michels
-..-..   Clauss Henrich Bruning mit Anna Catharina Elsabeen Eggemans
+19-01   Clauss Henrich Moehlenkampff mit Anna Maria Michels
+19-01   Clauss Henrich Bruning mit Anna Catharina Elsabeen Eggemans
 02-06   Herman Rolff Haabening mit Anna Maria Igels
 03-06   Herman Henrich Thoele, viduus, mit Charlotte Elsabeen Strubbes, vidua
 15-06   Johan Henrich Thoele, Cath., mit Margaretha Maria Dierckings, Cath.
@@ -429,7 +426,7 @@
 22-11   Johan Henrich vor der Haacke mit Anna Elsabeen Havighorst
 23-11   Johan Henrich Boehmer mit Grethe Gerderuth Kreyenhagen
 01-12   Johan Herbordt Luebbe mit Anna Margaretha von der Heyde
-..-..   Clauss Herman Rotert mit Anna Catharina Vollmers, K. Venne, zur Barenaue solutis
+01-12   Clauss Herman Rotert mit Anna Catharina Vollmers, K. Venne, zur Barenaue solutis
         jurib.
 29-07   Ernst Kaepper mit Anna Maria Knuefeners
 
@@ -488,7 +485,7 @@
 09-09   Johan Henrich Butke mit Luecke Elsabeen Ottes, vidua Henrich auf dem Berge
 16-09   Arend Henrich im Fange mit Catharina Margaretha Tappes
 02-10   Herman Henrich Knebel mit Catharina Elsabeen Warnings
-..-10   Gerdt Henrich Sachteleben mit Anna Catharina Tappes
+02-10   Gerdt Henrich Sachteleben mit Anna Catharina Tappes
 30-10   Johan Henrich Schomborg mit Anna Maria Liesebeth Sommerfruechtes
 04-11   Johan Jacob Endebrock mit Anna Elsabeen Fuhlbrocks
 06-11   Clauss Herman Schweepe mit Anna Catharina Vogels
@@ -519,7 +516,7 @@
 30-10 Clauss Henrich in der Wische mit Anna Catharina Strubbes
 10-11 Arend Henrich Specht mit Maria Catharina Eggemans
 13-11 Johan Christopher Hage mit Maria Liesebeth Reelings
-..-11 Johan Henrich Ratzer mit Anna Adellheit Freudenborgs, zur Barenaue als daselbst
+13-11 Johan Henrich Ratzer mit Anna Adellheit Freudenborgs, zur Barenaue als daselbst
       wonhaft
 17-11 Johan Herbordt Ollenhagen mit Dorothea Margaretha Adellheit Schumackers
 17-11 Johan Henrich Schluesemeyer mit Anna Maria Havighorst
@@ -556,12 +553,12 @@
 
 
 
-..-..   Christopher Jung, Barenauischer Brauer, mit Catharina Maria Margaretha Gaeckers,
+21-07   Christopher Jung, Barenauischer Brauer, mit Catharina Maria Margaretha Gaeckers,
         zur Barenaue cop.
 19-09   Johan Juergen Schulenburg mit Anna Liesebeth Koepkes
 20-09   Franss Ernst Schleibaum mit Anna Catharina Schmidts
 03-10   Johan Henrich Fuhlbrock mit Catharina Elsabeen Strueves
-..-10   Johan Herbordt Pohlman mit Catharina Margaretha Sophia Kuhlmans, zur Barenaue
+03-10   Johan Herbordt Pohlman mit Catharina Margaretha Sophia Kuhlmans, zur Barenaue
         cop.
 12-10   Herman Henrich Riedeman mit Anna Margaretha vor dem Berge
 19-10   Johan Henrich vor dem Berge mit Anna Margaretha Stutts
@@ -602,7 +599,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 30-10   Johan Gerdt zwischen Endebrock mit Maria Catharina Dunckers
 06-11   Johan Herman von der Heide mit Anna Catharina Falckes
 13-11   Johan Henrich Sigmund Schuette mit Anna Catharina Bruningsche
-..-..   Johan Henrich Ahlbert mit Anna Engell Margaretha Kehlmans, zur Barenaue cop.
+13-11   Johan Henrich Ahlbert mit Anna Engell Margaretha Kehlmans, zur Barenaue cop.
 
 
 
@@ -613,10 +610,10 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 19-02   Johan Henrich Duncker mit Anna Margaretha Brunings
 26-02   Johan Everdt Schomborg mit Anna Gerdruth Dreyers
 04-05   Claus Herman Reling mit Maria Adelheit Gildehaus
-..-..   Gerdt Henrich Kreyenhagen mit Anna Catharina Adelheit Staels, zur Barenaue cop.
+04-05   Gerdt Henrich Kreyenhagen mit Anna Catharina Adelheit Staels, zur Barenaue cop.
 23-07   Franss Henrich Dunker mit Thriene Margaretha Endebrocks
 23-09   Johan Herman Macke mit Catharina Margaretha Meyers
-..-..   Johan Ernst Schwankhuss mit Anna Margaretha Gros Klusmans
+23-09   Johan Ernst Schwankhuss mit Anna Margaretha Gros Klusmans
 06-10   Johan Evert Gros Klusman mit Luekke Elsabeen Niemans
 06-10   Herman Everdt Meier mit Anna Margaretha Meyers, von Hagen
 26-10   Claus Evert Strueve mit Margaretha Elsabeen Stiefers
@@ -633,13 +630,12 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 22-02   Johan Stephan Helmig mit Maria Anna Amalia Hofmeisters
 29-04   Johan Henrich Butke mit Anna Engel Buentes
 26-05   Johan Herbordt Moelman mit Maria Catharina Rekers
-..-..   Gerdt Herbordt Sefert mit Catharina Maria Ellermans, vidua Claus Bolmans
-..-..   Gerdt Herman Schomaker mit Catharina Margaretha Knilles, zur Barenaue cop.
+26-05   Gerdt Herbordt Sefert mit Catharina Maria Ellermans, vidua Claus Bolmans
+26-05   Gerdt Herman Schomaker mit Catharina Margaretha Knilles, zur Barenaue cop.
 30-08   Herman Henrich Bergman mit Anna Catharina Schweigmans
 22-09   Johan Herbordt Gausman mit Catharina Margaretha Koepkes
 28-09   Herman Henrich auf dem Brinke mit Anna Adelheit Bolmans
-04-10   Herman Henrich Lutmer mit Anna Catharina Elsabeen Wegmans
-..-10   Claus Henrich Schuette mit Maria Elsabeen Luebbes, sind zur Barenaue wohnend auf
+04-10   Herman Henrich Lutmer mit Anna Catharina Elsabeen Wegmans04-10   Claus Henrich Schuette mit Maria Elsabeen Luebbes, sind zur Barenaue wohnend auf
         dasiger Freiheit cop.
 25-10   Johan Henrich Sommerfruechte mit Anna Maria Schuettes
 03-11   Johan Henrich Nieman mit Regina Margaretha Hofmeisters
@@ -658,13 +654,13 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 
 
 
-..-.. Johan Henrich Sachteleben mit Anna Grethe Brunings, vidua Dunkers
+27-04 Johan Henrich Sachteleben mit Anna Grethe Brunings, vidua Dunkers
 04-07 Herman Henrich Knille mit Anna Catharina Borchstedes
 04-07 Balthasar Eberhardt Koch, Quastor Barenauensis, mit Catharina Elsabeen Juettings, zu
       Gerde cop.
 21-07 Gerdt Juergen Schmersal mit Catharina Elsabeen Relings, vidua Ernst Endebrock, zur
       Barenaue cop.
-..-.. Gerdt Herman Reling mit Catharina Margaretha Bollaerss, zur Barenaue cop. jura
+21-07 Gerdt Herman Reling mit Catharina Margaretha Bollaerss, zur Barenaue cop. jura
       restant
 11-08 Herman Henrich bey der Kellen mit Anna Adelheit Lutmers
 31-10 Johan Ernst Makke mit Anna Maria in der Stroth
@@ -722,7 +718,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 
         1761.
 04-01   Herman Henrich Moenk mit Maria Elisabeth Relings
-..-..   Claus Herman auf dem Berge, viduus, mit Anna Catharina Schweigmans, vidua
+04-01   Claus Herman auf dem Berge, viduus, mit Anna Catharina Schweigmans, vidua
         Warnings, zur Barenaue cop.
 13-02   Gerdt Juergen vor der Woesten mit Anna Christina Pienemans
 23-02   Johan Gerdt Strunk mit Anna Margaretha in der Stroth
@@ -734,11 +730,11 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 17-07   Johan Henrich Gausman mit Anna Margaretha Pienemans
 25-09   Johan Henrich Ketler mit Catharina Margaretha Kulmans
 27-09   Johan Herbord auf dem Brinke mit Anna Catharina, vidua Tepes
-..-..   Ernst Henrich Kulman mit Anna Maria Makkes, zur Barenaue cop.
+27-09   Ernst Henrich Kulman mit Anna Maria Makkes, zur Barenaue cop.
 16-10   Johan Henrich Nieman mit Anna Maria Tappes
 29-10   Johan Gerdt Gross Endebrock mit Anna Margaretha Droegesche
 15-11   Claus Herbordt Larman mit Anna Maria Wilkes, zur Barenaue cop.
-..-..   Franss Anthon Havighorst mit Catharina Engell Gaekers
+15-11   Franss Anthon Havighorst mit Catharina Engell Gaekers
 01-12   Gerdt Herman Borchelt mit Engel Liesebeth auf der Heide
 03-12   Johan Gerdt Riedeman mit Maria Adelheit Ottes
 
@@ -747,7 +743,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 10-01   Johan Henrich vor dem Tharen mit Anna Maria Elsabeen Fisses
 10-01   Gerdt Henrich Sollman mit Helena Catharina Schmalges
 24-01   Johan Herbord Larman mit Catharina Margaretha Hagemeiers
-..-..   Johan Berend Enking mit Anna Margaretha Schrake, dieser war der Barenauischer
+24-01   Johan Berend Enking mit Anna Margaretha Schrake, dieser war der Barenauischer
         Seiten sieder, und da beide Cath., sind sie in Voerden, salutis juribus copuliret
 21-05   Niclauss Henrich in der Stroth mit Anna Adellheit Garlings
 09-07   Herman Henrich Nieman mit Anna Catharina Gausmans
@@ -827,7 +823,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 09-04   Johan Herman Igel mit Anna Catharina Thoeles
 16-04   Ernst Henrich Rolker mit Catharina Maria Unkenholt, vidua Schomborgs
 19-04   Johan Henrich Gausman mit Maria Engel Meiers
-..-..   Johan Herman Horstman mit Maria Adelheit Gildehauss, vidua Halings
+19-04   Johan Herman Horstman mit Maria Adelheit Gildehauss, vidua Halings
 11-07   Johan Gerdt Stiefer mit Anna Maria Stukwischen
 13-09   Gerdt Henrich Rentzenbrink mit Anna Margaretha in der Stroth
 21-09   Johan Juergen Wahlbek mit Anna Margaretha Dunkers
@@ -835,8 +831,8 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 17-10   Johan Herman Gross Klussman mit Maria Engel Holtkampfs
 25-10   Johan Caspar thor Moehlen mit Anna Margaretha im Busche
 31-10   Johan Gerdt Warning mit Maria Elsabeen im Holte
-12-11   Johan Herman zu Eikern mit Anna Maria Sielschots
-..-..   Claus Henrich Goertemoeller mit Anna Maria Tappes, zur Barenaue cop.
+12-11   Johan Herman zu Eikern mit Anna Maria Sielschots1
+12-11   Claus Henrich Goertemoeller mit Anna Maria Tappes, zur Barenaue cop.
 22-11   Johan Henrich Dunker mit Maria Adelheit Schomakers
 25-11   Herman Evert Langefeld mit Catharina Margaretha Bronjes
 27-11   Johan Juergen Klussman mit Anna Maria Liesebeth Tiemans
@@ -852,7 +848,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 08-05 Gerdt Herman Goertemoeller mit Anna Margaretha Adelheit Relings
 16-05 Johan Henrich Schumacher mit Anna Margaretha Landwehrs
 16-05 Herman Henrich Horstman mit Anna Margaretha in das Stroh
-..-.. Claus Herman Rotert mit Anna Maria Liesabeth Goertemoellers, zur Barenaue cop.
+16-05 Claus Herman Rotert mit Anna Maria Liesabeth Goertemoellers, zur Barenaue cop.
 27-07 Gottfried Christopher Pape mit Maria Liesabeth Bars
 16-10 Johan Philip Friederich Gesler, Barenau: Chirurgus, mit Maria Adelheit Wiegmans, zur
       Barenaue cop.
@@ -966,7 +962,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 
 13-03 Johan Henrich Beddinghus, von Sledehausen, mit Maria Catharina Eggemans, vidua
       Spechts
-..-.. Johan Diederich Boepke mit Catharina Margaretha Moellers
+13-03 Johan Diederich Boepke mit Catharina Margaretha Moellers
 04-08 Claus Herman Rentzenbrink mit Maria Adelheit Blankes
 27-08 Claus Henrich Tiemeier mit Anna Elsabeen Schomborgs, vidua Borchels
 24-10 Herman Henrich Sachteleben mit Maria Margaretha in der Stroth
@@ -1074,7 +1070,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 01-11   Mattheus Pipmeier mit Margaretha Haegerkoetters
 16-11   Claus Henrich Reling mit Maria Catharina Schnieders
 17-11   Johan Henrich Gaussman mit Catharina Engel Sachtleben
-..-..   Johan herbord Hollenbek mit Margaretha Engel Schulenbergs
+17-11   Johan herbord Hollenbek mit Margaretha Engel Schulenbergs
 01-12   Ernst Henrich Meier mit Maria Adelheit Bolmans
 01-12   Ernst Henrich Bergman mit Margaretha Elsabeen Mohrmans
 20-12   Johan Ernst Schweigman mit Anna Margaretha Schmersals
@@ -1232,7 +1228,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 26-07   Johan Herman Borchelt mit Catharina Margaretha Determans, vidua Brokman
 11-08   Johan Gerdt Fruechtemeier mit Maria Elisabeth Relings
 20-09   Johan Henrich Goertemoeller mit Maria Elisabeth Goertemoellers
-..-10   Johan Herman Moelenkampf mit Catharina Adelheit auf der Heide, zur Barenaue in
+20-10   Johan Herman Moelenkampf mit Catharina Adelheit auf der Heide, zur Barenaue in
         Oct. cop.
 04-10   Herman Henrich Fegesak mit Anna Margaretha zwischen Endebroks
 17-10   Johan Henrich Stohlmeier mit Anna Engel Schulenbergs
@@ -1467,7 +1463,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 29-11   Claus Henrich Oldenhagen mit Anna Maria Gros Ennebroks, beide aus hiesigem
         Kirchsp.
 04-12   Ernst Henrich Bergmann mit Anna Cathrina Horstmanns, von Venne
-..-12   Johann Friedrich Kerkhof, aus Petershagen, mit Dorothea Wilhelmina Gennemanns,
+04-12   Johann Friedrich Kerkhof, aus Petershagen, mit Dorothea Wilhelmina Gennemanns,
         aus Preus Oldendorf, cop. .. Dec. zu Barenaue (diese ist durchstrichen) NB. Hatte
 
 
@@ -1702,7 +1698,7 @@ mis blz. 23 doop 5 1754 tot doop 10 1755.
 31-12 Witwer Johann Ernst Kuhlmann mit Cathrine Engel Dunkers
 NBAlle die bei denen der Ort ihrer herkunfft nicht bemerket worden, sind einheimische
 
-                                           1798.
+       1798.
 16-02    Gerd Henrich Sollmann mit Anne Marie vor der Woesten, Witwe Spoerl
 09-03    Johann Friedrich Schmersal mit Anne Marie Kuhlmanns
 30-03    Claus Henrich Topie mit Anne Cathrine Margrethe Lahrmanns
@@ -1781,7 +1777,6 @@ NBAlle die bei denen der Ort ihrer herkunfft nicht bemerket worden, sind einheim
 
 
                                            1800.
-NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimische.
 24-01 Witwer Hermann Wiesehahn mit Adelheit Hermanns von Venne
 07-02 Gerd Wellmer Rolph, von Belm, mit Marie Margrethe Luebben
 07-02 Hermann Henrich in der Stroth mit Anne Marie Fissen
@@ -1904,7 +1899,7 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 04-11 Johann Henrich Doelling, von Line im Tecklenburgsche, mit Grethe Engel Lingmanns
 18-11 Henrich Philip Hesse, aus Eimbeck, mit Marie Cathrine Fuentelmanns
 24-11 Johann Henrich Schuette mit Cathrine Marie Wischmeiers
-..-11   Gerd Henrich Sielschatt nach Venne in Nov.
+24-11   Gerd Henrich Sielschatt nach Venne in Nov.
 
                                            1804.
 27-01    Hermann Eberhard Sieger, viduus Provisor, mit Anne Cathrine Grosse Klusmanns
@@ -1922,7 +1917,7 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 27-04    Johann Henrich Sachteleben mit Marie Elisabeth Lingmanns
 04-05    Viduus Colon Johann Henrich Igel mit Anne Margrethe Elsabein Gros Endebroks
 11-05    Johann Henrich Rentzenbrink mit Marie Cathrine Spechts
-..-04    Johann Henrich Niemann dimittirt nach Holland
+11-04    Johann Henrich Niemann dimittirt nach Holland
 29-06    Johann Henrich Stute mit Cathrine Adelheit Schuetten
 13-07    Johann Friedrich Luebbe mit Anne Marie Meiers von Venne
 09-09    Johann Friedrich Schuette, von Venne, mit Cathrine Marie Schnieders
@@ -1941,13 +1936,13 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 03-02    Viduus Ernst Henrich Meier mit Margrethe Marie Wahrhaus von Bramsche
 08-02    Hermann Rudolph Nardhaus, aus Osnabrueck, mit Friederika Charlotta Hobelmanns
 20-02    Cathrine Adelheit Moes nach Venne dimittirt
-..-02    Fruechtemeiers Sohn nach Holland dimittirt
+20-02    Fruechtemeiers Sohn nach Holland dimittirt
 24-02    Hermann Eberhard Luebbe mit Anne Marie Elisabeth Tormoehlen
 01-03    Hermann Henrich Eggemann mit Cathrine Marie Elisabeth Knueveners
-..-03    Tepe nach Holland
-..-03    Gerd Henrich Rentzenbrink nach Holland
+01-03    Tepe nach Holland
+01-03    Gerd Henrich Rentzenbrink nach Holland
 28-04    Anne Gerdruth Relings nach Belm dimittirt
-..-04    Bey der Kellen nach Holland
+28-04    Bey der Kellen nach Holland
 03-05    Johann Henrich Schulenberg mit Cathrine Marie vor der Woesten
 05-05    Franz Henrich Sachteleben nach Bramsche
 07-05    Hermann Henrich Muegge nach Wildeshausen
@@ -1960,10 +1955,10 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 06-08    Viduus Hermann Henrich Schluesemeier jetzt auf der Heide mit Cathrine Marie
          Niemanns von Bramsche
 18-08    Johann Henrich Schnittker nach Achelrieden dimittirt
-..-08    Schomborg nach Holland
-..-08    Macken Sohn nach Holland
+18-08    Schomborg nach Holland
+18-08    Macken Sohn nach Holland
 22-09    Anne Marie Schaefers nach Holland
-..-09    Stutt nach Holland
+22-09    Stutt nach Holland
 11-10    Hermann Henrich Hallenbek mit Cathrine Margrethe von der Beke von Venne
 18-10    Johann Ernst in der Stroth mit anne Cathrine Marie Elsabein Ballmanns
 
@@ -1989,8 +1984,8 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 06-01    Johann Friedrich Ballmann mit Marie Adelheit Lingmanns
 05-02    Niclaus Diedrich Friedrich Luebbe nach Venne dimittirt
 09-02    Wittwer Hermann Henrich vor der Hake mit Anne Cathrine Marie Schomakers
-..-03    Johann Henrich Wahlbek nach Holland
-..-04    Wilken Sohn nach Holland
+09-03    Johann Henrich Wahlbek nach Holland
+09-04    Wilken Sohn nach Holland
 25-03    Wittwer Gerd Henrich Schluesemeier jetzo Bueker bey der Kellen mit Cathrine
          Adelheit vor dem Tharen
 03-04    Johann Henrich Schulenberg mit Marie Margrethe Garlings Wittwe Kassings
@@ -2010,7 +2005,7 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 10-10    Witwer Johann Friedrich Habedank mit Marie Adelheit Brueggemanns
 26-10    Johann Friedrich Otte, von Venne, mit Cathrine Margrethe Kreienhagens
 29-10    Johann Herbord im Fange mit Marie Elisabeth Buekers von Venne
-..-10    Marie Elisabeth Riedemanns nach Bramsche dimittirt
+29-10    Marie Elisabeth Riedemanns nach Bramsche dimittirt
 02-11    Ernst Henrich Luebbe nach Bramsche dimittirt
 20-11    Johann Friedrich auf dem Berge mit Marie Engel Factor
 28-11    Gerd Henrich Dunker mit Marie Margrethe Vorwalds
@@ -2021,9 +2016,9 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 
 
 
-..-08    Hermann Henrich Rotert nach Holland
-..-09    Friedrich Reling nach Holland
-..-12    Johann Henrich Rentzenbrink nach Quakenbrueck
+10-08    Hermann Henrich Rotert nach Holland
+10-09    Friedrich Reling nach Holland
+10-12    Johann Henrich Rentzenbrink nach Quakenbrueck
 
                                           1807.
 02-01 Christian Wilhelm Eggemann mit Anne Marie Elisabeth auf dem Berge
@@ -2037,11 +2032,11 @@ NBAlle bey welchen der Ort ihrer herkunft nicht bemerkt worden, sind Einheimisch
 01-04 Johann Christopher Feil mit Anne Marie Meiers, so von Juergen im Sande geschieden
 17-04 Witwer Johann Henrich Steinkamp mit Marie Engel auf der Heide
 26-04 Cathrine Tormoehlen nach Venne dimittirt
-..-04    Johann Henrich Rosenbaum nach Bramsche
-..-04    Anne Marie Thoelen im Moehlenort ins Domkirchspiel
-..-05    Gerd Henrich Reling nach Belm
-..-05    Cathrine Margrethe Borchelts nach Wallenhorst
-..-06    Johann Friedrich Jonas Kammacher nach Osnabrueck
+26-04    Johann Henrich Rosenbaum nach Bramsche
+26-04    Anne Marie Thoelen im Moehlenort ins Domkirchspiel
+26-05    Gerd Henrich Reling nach Belm
+26-05    Cathrine Margrethe Borchelts nach Wallenhorst
+26-06    Johann Friedrich Jonas Kammacher nach Osnabrueck
 21-08 Hermann Henrich Ballmann mit Anne Marie Adelheit Schluesemeiers
 23-08 Johann Henrich Schomborg mit Witwe Anne Margrethe Adelheit Mueggen geb.
          Ballmanns
