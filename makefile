@@ -1,10 +1,6 @@
 CC=clang++
 CFLAGS=-c -g
 
-# How to use this makefile template:
-# object file: source file dependencies
-#	$(CC) $(CFLAGS) source file
-
 all: fertilizer
 
 fertilizer: main.o MarriageRecord.o 

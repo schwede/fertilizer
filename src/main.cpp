@@ -143,7 +143,6 @@ vector<string> loadStrings() // produces a list of strings seperated by spaces, 
 		{
 			if(input != "")
 			{
-				cout << input << endl;
 				list.push_back(input);
 				input = "";
 			}
@@ -175,11 +174,11 @@ int main()
 	vector<string> strings = loadStrings();
 	vector<MarriageRecord> marriages = parseMarriages(strings);
 
-	for(int x = 0; x < marriages.size(); x++)
+	/*for(int x = 0; x < marriages.size(); x++)
 	{
 		marriages[x].print();
-	}
-	//search(marriages);
+	}*/
+	search(marriages);
 
 	return 0;
 }
